@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import "./App.css";
 import hand from "./images/hand.svg";
 import rocket from "./images/rocket.svg";
@@ -19,6 +20,10 @@ document.body.onmousemove = function(e) {
 };
 
 function App() {
+  useEffect(() => {
+    document.title = "Katia Liashevska - website"
+  }, []);
+ 
   return (
     <div className="App">
       <body>

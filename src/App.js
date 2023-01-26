@@ -29,15 +29,17 @@ function App() {
       <body>
         <div id="inverted-cursor"></div>
         <h1>
-          Hi! My name is <span className="katia">Katia</span> <img className="hand-image image" src={hand} alt="hand"/> and I am looking for 
+          Hi! My name is <span className="katia">Katia</span> <img className="hand-image image" src={hand} alt="hand"/> and I'm looking for 
           <br/>
-          a 9-10 months / 5 days a week alternance 
+          a 12-month alternance in web development. 
           <br/>
-          in web development as a student at <a className="ironhack" href="https://www.ironhack.com" target="_blank">Ironhack</a> <img className="rocket-image image" src={rocket} alt="rocket"/> 
+          It will start with a 9-week bootcamp at <a className="ironhack" href="https://www.ironhack.com" target="_blank">Ironhack</a> <img className="rocket-image image" src={rocket} alt="rocket"/> 
           <br/>
-          Here is my <a className="github" href="https://github.com/katialiashevska" target="_blank">GitHub</a> and my <a className="underline linkedin" href="https://www.linkedin.com/in/katia-liashevska" target="_blank">LinkedIn</a> 
+          Afterwards I'll be available for work 5 days 
           <br/>
-          if you want to find out more <img className="star-image image" src={star} alt="star"/>
+          a week for 10 months. Here is my <a className="github" href="https://github.com/katialiashevska" target="_blank">GitHub</a> and 
+          <br/>
+          my <a className="underline linkedin" href="https://www.linkedin.com/in/katia-liashevska" target="_blank">LinkedIn</a> if you want to find out more <img className="star-image image" src={star} alt="star"/>
         </h1>
         <div className="buttons">
           <a className="github-button each-button" href="https://github.com/katialiashevska" target="_blank">

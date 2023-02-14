@@ -31,7 +31,7 @@ function App() {
         <h1>
           Hi! My name is <span className="katia">Katia</span> <img className="hand-image image" src={hand} alt="hand"/> and I'm looking for 
           <br/>
-          a 12-month alternance in web development. 
+          a <span className="alternance">12-month</span> alternance in web development. 
           <br/>
           It will start with a 9-week bootcamp at <a className="ironhack" href="https://www.ironhack.com" target="_blank">Ironhack</a> <img className="rocket-image image" src={rocket} alt="rocket"/> 
           <br/>
